@@ -1,8 +1,20 @@
 # AiChatBot
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6. and using Deepseek LLM deepseek-r1:1.5b
 
 ## Development server
+1. Install Ollama if you don't have installed on your local machine
+  ```bash
+   Download Ollama: [Click here to download](https://ollama.com/download)
+```
+2. Once Ollama is installed, open your Command Line Interface (CLI) and pull the model:
+ ```bash
+ ollama pull deepseek-r1:1.5b
+ ```
+3. Once the model is downloaded, you can run it using the command:
+ ```bash
+ ollama run deepseek-r1:1.5b
+ ```
 
 To start a local development server, run:
 
